@@ -58,3 +58,8 @@ sr.reveal(`.part_2`, { delay: 300, origin: 'right' })
 sr.reveal(`.part_3`, { delay: 300, origin: 'left' })
 sr.reveal(`.part_4`, { delay: 300, origin: 'right' })
 sr.reveal(`.video-part`, { interval: 300, origin: 'bottom' })
+var hidden_iframe = document.querySelector('.hidden-iframe');
+console.log(hidden_iframe);
+hidden_iframe.addEventListener('click', function() {
+    hidden_iframe.style.display = 'block';
+})
