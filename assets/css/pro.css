@@ -204,7 +204,7 @@ a:hover {
 }
 
 .container.content {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .container-fluid {
@@ -393,9 +393,8 @@ a:hover {
 }
 
 .content h1 {
-    font-size: 50px;
     color: #1A374D;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .content .typed-words {
@@ -404,6 +403,7 @@ a:hover {
 
 .content .detail {
     margin: 100px;
+    margin-top: 0;
     pointer-events: none;
 }
 
@@ -411,7 +411,7 @@ a:hover {
     width: 1000px;
     position: absolute;
     left: -300px;
-    top: 500px;
+    top: 400px;
     z-index: -1;
     filter: opacity(0.5);
 }
@@ -476,7 +476,9 @@ a:hover {
     background-image: linear-gradient(80deg, #bb8dc9, #e4b592fa);
     width: 500px;
     padding: 20px;
-    transform: translate(-102px, -5px);
+    position: relative;
+    top: -40px;
+    left: -20px;
 }
 
 .author h6 {
@@ -545,7 +547,7 @@ a:hover {
 }
 
 .section-video {
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .video-play-button {
@@ -661,8 +663,8 @@ a:hover {
         left: 700px!important;
     }
     .video-part .section-video {
-        margin-left: 70px!important;
-        margin-top: 1100px!important;
+        margin-left: 25px!important;
+        margin-top: 960px!important;
     }
     .part_4_title {
         color: black!important;
